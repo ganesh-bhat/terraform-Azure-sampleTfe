@@ -1,3 +1,6 @@
+provider "azurerm" {
+  version = "~> 1.0"
+}
 variable "resource_group_name" {
     default = "terraform-test"
 }
